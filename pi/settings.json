@@ -1,0 +1,24 @@
+{
+  "lastChangelogVersion": "0.83.0",
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-opus-5",
+  "defaultThinkingLevel": "high",
+  "quietStartup": true,
+  "packages": [
+    "git:github.com/fcatuhe/pi-wares"
+  ],
+  "compaction": {
+    "enabled": true
+  },
+  "enabledModels": [
+    "anthropic/claude-fable-5",
+    "anthropic/claude-opus-5",
+    "anthropic/claude-sonnet-5"
+  ],
+  "transport": "websocket-cached",
+  "warnings": {
+    "anthropicExtraUsage": false
+  },
+  "theme": "dark",
+  "hideThinkingBlock": true
+}
