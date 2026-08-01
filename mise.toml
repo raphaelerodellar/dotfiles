@@ -22,7 +22,6 @@
 "~/.pi/agent/settings.json" = "pi/settings.json"
 "~/.pi/agent/extensions" = "pi/extensions"
 
-# oh-my-zsh ships neither plugin, and zsh/zshrc lists both in `plugins`.
+# oh-my-zsh does not ship this plugin, and zsh/zshrc lists it in `plugins`.
 [bootstrap.repos]
-"~/.oh-my-zsh/custom/plugins/zsh-autosuggestions" = "https://github.com/zsh-users/zsh-autosuggestions"
 "~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting" = "https://github.com/zsh-users/zsh-syntax-highlighting"
