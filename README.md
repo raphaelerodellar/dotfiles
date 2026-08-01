@@ -1,7 +1,22 @@
-This repository is used by [Le Wagon](https://www.lewagon.com) students.
+# Dotfiles
 
-## Toolset
+Symlinked by [mise](https://mise.jdx.dev/) `[dotfiles]`. See `mise.toml` and `mise.darwin.toml` for what maps where.
 
-- [oh-my-zsh](http://ohmyz.sh/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [git](https://git-scm.com/)
+## Setup on a new machine
+
+```bash
+brew install mise
+git clone git@github.com:raphaelerodellar/dotfiles.git ~/rcode/dotfiles
+cd ~/rcode/dotfiles && ./install
+```
+
+Ghostty expects the JetBrainsMono Nerd Font: `brew install --cask font-jetbrains-mono-nerd-font`.
+
+## Commands
+
+```bash
+./install                    # apply everything
+mise bootstrap status        # what is out of sync
+```
+
+Files are symlinked, so editing them in the repo is enough.
