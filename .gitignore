@@ -1,0 +1,4 @@
+# Machine-local mise overrides
+mise.local.toml
+
+.DS_Store

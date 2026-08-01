@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+cd "$(dirname "${BASH_SOURCE[0]}")"
+mise trust --quiet .
+exec mise bootstrap --only dotfiles,repos -E "$(uname -s | tr '[:upper:]' '[:lower:]')" "$@"
