@@ -7,9 +7,6 @@
   "packages": [
     {
       "source": "git:github.com/fcatuhe/pi-wares",
-      "extensions": [
-        "-extensions/claude-code-use/index.ts"
-      ],
       "skills": [
         "-skills/brave-search/SKILL.md"
       ]
