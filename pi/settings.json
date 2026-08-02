@@ -5,7 +5,15 @@
   "defaultThinkingLevel": "high",
   "quietStartup": true,
   "packages": [
-    "git:github.com/fcatuhe/pi-wares"
+    {
+      "source": "git:github.com/fcatuhe/pi-wares",
+      "extensions": [
+        "-extensions/claude-code-use/index.ts"
+      ],
+      "skills": [
+        "-skills/brave-search/SKILL.md"
+      ]
+    }
   ],
   "compaction": {
     "enabled": true
