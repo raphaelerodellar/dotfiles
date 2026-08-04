@@ -22,6 +22,7 @@ command = 'p=$(herdr tab create --focus); p=${p#*\"pane_id\":\"}; herdr pane run
 show_agent_labels_on_pane_borders = true
 prompt_new_tab_name = false
 agent_panel_sort = "priority"
+pane_scrollbars = false
 
 [experimental]
 kitty_graphics = true
