@@ -17,8 +17,6 @@ row_gap = 1
 kitty_graphics = true
 pane_history = true
 
-# New tab running pi, focused, in one keystroke.
-
 # omarchy's config/herdr/config.toml is the standard, one file for both machines.
 # Three layers: its prefix chords verbatim, its alt chords verbatim, and a ctrl+alt
 # chord where macOS never delivers the alt one. Hyprland owns every super chord and
@@ -83,4 +81,4 @@ command = 'p=$(herdr tab create --focus); p=${p#*\"pane_id\":\"}; herdr pane run
 
 # Beside the repos, where git wt puts its worktrees too
 [worktrees]
-directory = "~/fcode/worktrees"
+directory = "~/rcode/worktrees"
