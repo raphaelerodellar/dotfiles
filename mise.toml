@@ -16,6 +16,7 @@
 "~/.rspec" = "ruby/rspec"
 
 # --- CLI tools ---
+"~/.config/mise/config.toml" = "mise/config.toml"
 "~/.config/herdr/config.toml" = "herdr/config.toml"
 
 # --- AI agents ---
