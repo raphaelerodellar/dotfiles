@@ -89,4 +89,5 @@
     "git.confirmSync": false,
     "diffEditor.hideUnchangedRegions.enabled": true,
     "workbench.editor.empty.hint": "hidden",
+    "extensions.ignoreRecommendations": true,
 }
