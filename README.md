@@ -5,12 +5,14 @@ Symlinked by [mise](https://mise.jdx.dev/) `[dotfiles]`. See `mise.toml` and `mi
 ## Setup on a new machine
 
 ```bash
-brew install mise
+curl https://mise.run | sh
 git clone git@github.com:raphaelerodellar/dotfiles.git ~/rcode/dotfiles
 cd ~/rcode/dotfiles && ./install
 ```
 
-Ghostty expects the JetBrainsMono Nerd Font: `brew install --cask font-jetbrains-mono-nerd-font`.
+Ghostty expects the JetBrainsMono Nerd Font. Download it from [nerdfonts.com](https://www.nerdfonts.com/font-downloads) and open the `.ttf` files to install them.
+
+System packages such as ffmpeg, ghostscript and vips come from [MacPorts](https://www.macports.org/install.php). `zsh/zprofile` puts `/opt/local/bin` first in `PATH`.
 
 ## Commands
 

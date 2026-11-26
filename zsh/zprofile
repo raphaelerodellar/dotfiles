@@ -1,1 +1,3 @@
-eval "$(/usr/local/bin/brew shellenv)"
+# MacPorts comes first so its binaries take precedence over anything left in /usr/local
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export MANPATH="/opt/local/share/man:$MANPATH"
