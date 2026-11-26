@@ -1,14 +1,20 @@
 {
-  "lastChangelogVersion": "0.83.0",
+  "lastChangelogVersion": "1.6.1",
   "defaultProvider": "anthropic",
-  "defaultModel": "claude-opus-5",
+  "defaultModel": "claude-opus-5-5",
   "defaultThinkingLevel": "high",
   "quietStartup": true,
+  "defaultTools": [
+    "+codemode"
+  ],
   "packages": [
     {
       "source": "git:github.com/fcatuhe/pi-wares",
       "skills": [
         "-skills/brave-search/SKILL.md"
+      ],
+      "extensions": [
+        "+extensions/policies/policy-writing-style/index.ts"
       ]
     }
   ],
@@ -20,12 +26,25 @@
     "anthropic/claude-opus-5",
     "anthropic/claude-sonnet-5",
     "anthropic/claude-haiku-4-5",
-    "openai-codex/gpt-5.6-sol"
+    "openai-codex/gpt-5.6-sol",
+    "anthropic/claude-opus-5-5",
+    "anthropic/claude-fable-5-1",
+    "openai-codex/gpt-6-sol",
+    "anthropic/claude-sonnet-5-5",
+    "anthropic/claude-haiku-5-5"
   ],
   "transport": "websocket-cached",
   "warnings": {
     "anthropicExtraUsage": false
   },
   "theme": "dark",
-  "hideThinkingBlock": true
+  "hideThinkingBlock": false,
+  "tuiMode": "fullscreen",
+  "treeFilterMode": "no-tools",
+  "notices": {
+    "cacheMisses": true,
+    "cacheWarming": true,
+    "compactionCosts": true,
+    "reasoningDrops": true
+  }
 }
